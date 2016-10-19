@@ -1,0 +1,43 @@
+body {
+  font-family: "Helvetica";
+}
+
+#app {
+
+}
+
+.song-detail {
+  background-color: #E2E4EC;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.song-detail:nth-child(even) {
+  background-color: #cbcdd4;
+  padding: 10px;
+}
+
+.song-box {
+  background-color: black;
+}
+
+.song-artwork {
+  border: 2px solid black;
+  margin: 0px 10px 0px 0px;
+}
+
+.song-artwork img {
+  vertical-align :bottom;
+}
+
+.song-audio {
+  border: 1px solid black;
+  margin: 10px 0px 0px 0px;
+  display: inline-block; 
+  position: absolute;
+}
+
+.song-audio audio {
+  vertical-align :bottom;
+}
