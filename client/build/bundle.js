@@ -21523,7 +21523,11 @@
 	                    React.createElement(
 	                      'td',
 	                      null,
-	                      this.props.song.artist.name
+	                      React.createElement(
+	                        'a',
+	                        { href: this.props.song.artist.link, target: '_blank' },
+	                        this.props.song.artist.name
+	                      )
 	                    )
 	                  ),
 	                  React.createElement(

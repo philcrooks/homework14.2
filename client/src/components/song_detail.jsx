@@ -15,7 +15,7 @@ var SongDetail = React.createClass({
             <td>
               <table>
                 <tbody>
-                  <tr><td><b>Artist:</b></td><td>{this.props.song.artist.name}</td></tr>
+                  <tr><td><b>Artist:</b></td><td><a href={this.props.song.artist.link} target="_blank">{this.props.song.artist.name}</a></td></tr>
                   <tr><td><b>Title:</b></td><td>{this.props.song.title}</td></tr>
                 </tbody>
               </table>
